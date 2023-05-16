@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Lickerli One";
+  src: local("Lickerli One"), url(../fonts/leckerlione/leckerlione-regular-webfont.eot), url(../fonts/leckerlione/leckerlione-regular-webfont.svg), url(../fonts/leckerlione/leckerlione-regular-webfont.ttf), url(../fonts/leckerlione/leckerlione-regular-webfont.woff);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poller One";
+  src: local("Poller One"), url(../fonts/pollerone/pollerone-webfont.eot), url(../fonts/pollerone/pollerone-webfont.svg), url(../fonts/pollerone/pollerone-webfont.ttf), url(../fonts/pollerone/pollerone-webfont.woff);
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__title {
+  margin-bottom: 30px;
+}
+.about__img {
+  border: 2px #252525 solid;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.about__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text {
+  width: 600px;
+  text-align: center;
+}
+.text__title {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 1.17em;
+}
+.text__body {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.text a {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #252525;
+}
+
+.wrapper {
+  padding: 47px 0 0 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 50px;
+  font-family: "Lickerli One", Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+}
+
+.menu {
+  color: #252525;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.menu ul {
+  display: flex;
+  gap: 35px;
+}
+.menu__item:hover {
+  color: #0ba39c;
+}
+
+.logo {
+  margin-bottom: 13px;
+}
+
+.title {
+  font-family: "Poller One", Helvetica, sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+  background: #252525;
+  color: #ffffff;
+  display: inline-block;
+  padding: 20px 30px;
+}
+
+.link__active {
+  color: #0ba39c;
+}
+
+.intro {
+  width: 100%;
+  height: 38.4vw;
+  background: url(../img/the-beacon.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.intro__title {
+  font-size: 20px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: "Poller One", Helvetica, sans-serif;
+  background: #ffffff;
+  display: inline-block;
+}
+.intro__body {
+  padding-left: 47%;
+}
+.intro__subtitle {
+  color: #ffffff;
+  background: #252525;
+  padding: 5px 25px;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+.intro__subtitle:last-child {
+  margin-bottom: 22px;
+}
+.intro__button {
+  background: #0ba39c;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 62px;
+  width: 155px;
+  line-height: 62px;
+  padding-left: 28px;
+  color: white;
+}
+
+.sample__wrap {
+  display: flex;
+  gap: 2.15%;
+  margin-bottom: 175px;
+}
+.sample__item {
+  flex: 1 1 31.9%;
+}
+.sample__img {
+  margin-bottom: 30px;
+}
+.sample__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sample__title {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Poller One", Helvetica, sans-serif;
+}
+
+.footer {
+  background-color: #252525;
+  width: 100%;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 36px 0 42px;
+}
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__icons {
+  display: flex;
+  gap: 20px;
+}
+.footer__twitter {
+  background: url(../img/icons/icon-twitter.jpg) no-repeat center;
+  background-size: cover;
+  width: 44px;
+  height: 44px;
+}
+.footer__twitter:hover {
+  background: url(../img/icons/icon-twitter-hover.jpg);
+}
+.footer__facebook {
+  background: url(../img/icons/icon-facebook.jpg) no-repeat center;
+  background-size: cover;
+  width: 44px;
+  height: 44px;
+}
+.footer__facebook:hover {
+  background: url(../img/icons/icon-facebook-hover.jpg);
+}
+.footer__google {
+  background: url(../img/icons/icon-googleplus.jpg) no-repeat center;
+  background-size: cover;
+  width: 44px;
+  height: 44px;
+}
+.footer__google:hover {
+  background: url(../img/icons/icon-googleplus-hover.jpg);
+}
+.footer__pinterest {
+  background: url(../img/icons/icon-pinterest.jpg) no-repeat center;
+  background-size: cover;
+  width: 44px;
+  height: 44px;
+}
+.footer__pinterest:hover {
+  background: url(../img/icons/icon-pinterest-hover.jpg);
+}/*# sourceMappingURL=style.css.map */
