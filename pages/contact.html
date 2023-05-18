@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact us - Mustacchio</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -34,7 +36,48 @@
         </nav>
       </header>
 
-      <section class="contact"></section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact__wrap">
+            <h1 class="contact__title title">LET'S KEEP IN TOUCH</h1>
+            <form method="POST" class="contact__form form">
+              <input
+                type="text"
+                placeholder="NAME"
+                class="border form__item"
+                name="name"
+              />
+              <input
+                type="text"
+                placeholder="ADDRESS"
+                class="border form__item"
+                name="address"
+              />
+              <input
+                type="email"
+                placeholder="EMAIL"
+                class="border form__item"
+                name="email"
+              />
+              <input
+                type="tel"
+                placeholder="PHONE NUMBER"
+                class="border form__item"
+                name="phone"
+              />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="MESSAGE"
+                class="border form__item"
+              ></textarea>
+            </form>
+            <input type="submit" value="SEND" class="contact__button button" />
+          </div>
+        </div>
+      </section>
 
       <footer class="footer">
         <div class="container">
@@ -43,10 +86,18 @@
               © 2023 by Mustacchio. All rights reserved.
             </div>
             <div class="footer__icons">
-              <div class="footer__twitter"></div>
-              <div class="footer__facebook"></div>
-              <div class="footer__google"></div>
-              <div class="footer__pinterest"></div>
+              <a href="#">
+                <div class="footer__twitter"></div>
+              </a>
+              <a href="#">
+                <div class="footer__facebook"></div>
+              </a>
+              <a href="#">
+                <div class="footer__google"></div>
+              </a>
+              <a href="#">
+                <div class="footer__pinterest"></div>
+              </a>
             </div>
           </div>
         </div>
