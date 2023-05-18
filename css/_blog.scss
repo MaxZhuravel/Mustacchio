@@ -1,0 +1,42 @@
+.blog {
+  margin-bottom: 30px;
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__article {
+    display: flex;
+  }
+  &__wrap {
+    text-align: center;
+  }
+}
+.article {
+  border: 2px solid $color-dark;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__img {
+    border-right: 2px solid $color-dark;
+  }
+  &__title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+  &__body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  &__button {
+    padding: 8px 20px;
+    width: fit-content;
+  }
+}
