@@ -55,13 +55,17 @@ a {
     display: flex;
     gap: 35px;
   }
-  &__item:hover {
+  &__item:hover > a {
     color: $color-active;
   }
 }
 
 .logo {
   margin-bottom: 13px;
+}
+
+.border {
+  border: 2px solid $color-dark;
 }
 
 .button {
@@ -71,14 +75,9 @@ a {
   font-weight: 900;
   display: inline-block;
   font-size: 18px;
-  a {
-    color: #ffffff;
-    &:hover {
-      color: $color-dark;
-    }
-  }
-
+  color: #ffffff;
   &:hover {
+    color: $color-dark;
     background: #ffffff;
   }
 }
@@ -133,12 +132,12 @@ a {
   &__button {
     background: $color-active;
     text-transform: uppercase;
-    font-size: 16px;
     height: 62px;
     width: 155px;
-    line-height: 62px;
     padding-left: 28px;
     color: white;
+    line-height: 62px;
+    font-size: 16px;
   }
 }
 
@@ -150,6 +149,9 @@ a {
   }
   &__item {
     flex: 1 1 31.9%;
+    &:hover > .sample__img {
+      opacity: 1;
+    }
   }
   &__img {
     margin-bottom: 30px;
