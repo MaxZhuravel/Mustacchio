@@ -1,0 +1,29 @@
+.blog-post {
+  &__wrap {
+    text-align: center;
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__img {
+    margin-bottom: 30px;
+  }
+  &__item {
+    width: 560px;
+    margin: 0 auto;
+  }
+}
+.post-item {
+  &__title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+  p {
+    &:last-child {
+      margin-bottom: 50px;
+    }
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+}
